@@ -65,7 +65,8 @@ function App() {
         params: {base64_encoded: 'true', fields: '*'},
         headers: {
           'X-RapidAPI-Host': 'judge0-ce.p.rapidapi.com',
-          'X-RapidAPI-Key': 'f2028a7637msh1df9e2bc6e63744p1ee552jsnbec9b102a099'
+          'X-RapidAPI-Key': process.env.REACT_APP_API_KEY
+    },'
         }
       };
     try {
