@@ -66,7 +66,7 @@ function App() {
         headers: {
           'X-RapidAPI-Host': 'judge0-ce.p.rapidapi.com',
           'X-RapidAPI-Key': process.env.REACT_APP_API_KEY
-    },'
+    },
         }
       };
     try {
